@@ -4,9 +4,10 @@ using System.Windows.Input;
 
 namespace MSWordParserToHTML.Commands
 {
+    #region Делегаты для методов WPF команд
     public delegate void ExecuteHandler(object parameter);
     public delegate bool CanExecuteHandler(object parameter);
-    
+    #endregion
 
     #region Класс команд - RelayCommand
     /// <summary>Класс реализующий интерфейс ICommand для создания WPF команд</summary>
