@@ -4,6 +4,7 @@ using System.Windows.Input;
 
 namespace MSWordParserToHTML.Commands
 {
+    //a
     public delegate void ExecuteHandler(object parameter);
     public delegate bool CanExecuteHandler(object parameter);
 
